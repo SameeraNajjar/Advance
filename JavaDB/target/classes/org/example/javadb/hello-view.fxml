@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="employeeListV" alignment="CENTER" prefHeight="372.0" prefWidth="466.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javadb.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="500.0" prefWidth="426.0">
+      <children>
+         <TextField fx:id="tv_name" layoutX="14.0" layoutY="14.0" />
+         <Button layoutX="175.0" layoutY="31.0" mnemonicParsing="false" onAction="#saveEmployee" text="Save" />
+         <TextField fx:id="tv_email" layoutX="14.0" layoutY="57.0" />
+         <Label layoutX="14.0" layoutY="37.0" prefHeight="18.0" prefWidth="56.0" text="Email" />
+         <Label layoutX="18.0" prefHeight="18.0" prefWidth="56.0" text="Name" />
+      </children>
+   </AnchorPane>
+
+    <Label fx:id="welcomeText" />
+    <Button onAction="#onHelloButtonClick" text="Say Hello!" />
+   <ListView id="employeeLV" fx:id="employeeLV" prefHeight="700.0" prefWidth="426.0" />
+   <Button fx:id="btn_LoadList" mnemonicParsing="false" onAction="#getSomeEmployees" text="Load List" />
+</VBox>
