@@ -1,48 +1,44 @@
-Functional Interfaces and Lambdas: Calculator Implementation
-Project Overview
+# Functional Interfaces and Lambdas: Calculator Implementation
 
+## Project Overview
 This project demonstrates the difference between Object-Oriented Programming (OOP) and Functional Programming in Java by implementing a simple calculator. The calculator performs basic arithmetic operations: addition, subtraction, multiplication, division, and modulus.
 
 The project is divided into two parts:
 
-    OOP Implementation: A traditional class-based approach with methods for each arithmetic operation.
+1. **OOP Implementation:** A traditional class-based approach with methods for each arithmetic operation.
+2. **Functional Implementation:** A functional programming approach using a `Calculator` interface and lambda expressions for each operation.
 
-    Functional Implementation: A functional programming approach using a Calculator interface and lambda expressions for each operation.
+This task is part of **Practical Lecture #3** and is designed to help students understand the concepts of functional interfaces and lambda expressions in Java.
 
-This task is part of Practical Lecture #3 and is designed to help students understand the concepts of functional interfaces and lambda expressions in Java.
-Functional Requirements
-Part A: OOP Implementation
+---
 
-    Create a class OOPCalculator with methods for:
+## Functional Requirements
+### Part A: OOP Implementation
 
-        Addition
+1. Create a class `OOPCalculator` with methods for:
+    - Addition
+    - Subtraction
+    - Multiplication
+    - Division
+    - Modulus
 
-        Subtraction
+2. Test the calculator with different pairs of input numbers.
 
-        Multiplication
+### Part B: Functional Implementation
 
-        Division
-
-        Modulus
-
-    Test the calculator with different pairs of input numbers.
-
-Part B: Functional Implementation
-
-    Define a functional interface Calculator with a single abstract method:
-    java
-    Copy
-
+1. Define a functional interface `Calculator` with a single abstract method:
+    
+    ```java
     double calculate(double a, double b);
+    ```
 
-    Implement four lambda expressions for:
+2. Implement four lambda expressions for:
+    - Addition
+    - Subtraction
+    - Multiplication
+    - Division
 
-        Addition
+3. Test the calculator with different pairs of input numbers.
 
-        Subtraction
 
-        Multiplication
 
-        Division
-
-    Test the calculator with different pairs of input numbers.
