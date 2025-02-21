@@ -1,4 +1,4 @@
-Functional Interfaces and Lambdas: Calculator Implementation
+# Functional Interfaces and Lambdas: Calculator Implementation
 Project Overview
 
 This project demonstrates the implementation of a simple calculator using both Object-Oriented Programming (OOP) and Functional Programming approaches in Java. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus.
