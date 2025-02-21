@@ -1,20 +1,18 @@
-Functional Interfaces and Lambdas: Calculator Implementation
+# Functional Interfaces and Lambdas: Calculator Implementation
 
- Project Overview
-
-This project demonstrates the difference between **Object-Oriented Programming (OOP)** and **Functional Programming** in Java by implementing a simple calculator. The calculator performs basic arithmetic operations: addition, subtraction, multiplication, division, and modulus.
+## Project Overview
+This project demonstrates the difference between Object-Oriented Programming (OOP) and Functional Programming in Java by implementing a simple calculator. The calculator performs basic arithmetic operations: addition, subtraction, multiplication, division, and modulus.
 
 The project is divided into two parts:
 
-1. OOP Implementation**: A traditional class-based approach with methods for each arithmetic operation.
-2. Functional Implementation**: A functional programming approach using a `Calculator` interface and lambda expressions for each operation.
+1. **OOP Implementation:** A traditional class-based approach with methods for each arithmetic operation.
+2. **Functional Implementation:** A functional programming approach using a `Calculator` interface and lambda expressions for each operation.
 
 This task is part of **Practical Lecture #3** and is designed to help students understand the concepts of functional interfaces and lambda expressions in Java.
 
 
- Functional Requirements
-
-  Part A: OOP Implementation
+## Functional Requirements
+### Part A: OOP Implementation
 
 1. Create a class `OOPCalculator` with methods for:
     - Addition
@@ -25,13 +23,14 @@ This task is part of **Practical Lecture #3** and is designed to help students u
 
 2. Test the calculator with different pairs of input numbers.
 
- Part B: Functional Implementation
+### Part B: Functional Implementation
 
 1. Define a functional interface `Calculator` with a single abstract method:
-
+    
     ```java
     double calculate(double a, double b);
     ```
+   
 
 2. Implement four lambda expressions for:
     - Addition
@@ -40,3 +39,7 @@ This task is part of **Practical Lecture #3** and is designed to help students u
     - Division
 
 3. Test the calculator with different pairs of input numbers.
+
+
+
+
